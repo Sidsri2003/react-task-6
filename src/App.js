@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './src/Components/Header.js';
-import About from 'src/Components/About.js';
-import Projects from 'src/Components/Project.js';
-import Contact from 'src/Components/Contact.js';
+import Header from './Components/Header'; // Corrected import path
+import About from './Components/About'; // Corrected import path
+import Projects from './Components/Project'; // Corrected import path
+import Contact from './Components/Contact'; // Corrected import path
 
 function App() {
   return (
@@ -17,4 +17,3 @@ function App() {
 }
 
 export default App;
-
